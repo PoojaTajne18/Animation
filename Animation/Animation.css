@@ -1,0 +1,48 @@
+div{
+    border-style: double;
+    width: 1000px;
+    height: 1000px;
+    background-color:azure;
+    color: blue;
+    border-color: black;
+    background-image: url("./image/images.jpg");
+    animation-name: Animation1;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    animation-delay:2s;
+    animation-direction:alternate-reverse;
+    border-radius: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    border-image-width: 3000;
+    
+    
+}
+body{
+    background-color:white;
+    
+}
+
+
+@keyframes Animation1{
+  from{
+    background-color: azure;
+    background-image: url("./image/images.jpg");
+
+    
+    
+    
+
+  }
+  to{
+    background-color: coral;
+    color: brown;
+    background-image: url("./image/images\ \(1\).jpg");
+    height: 300px;
+    width: 300px;
+    border-radius: 0px;
+    
+
+  }
+} 
